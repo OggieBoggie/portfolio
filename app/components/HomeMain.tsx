@@ -1,4 +1,4 @@
-export default function HomeHero() {
+export default function HomeMain() {
     return (
         <div className="flex flex-col items-center justify-center h-screen bg-custom-blue" style={{ backgroundImage: 'url(/background.jpg)', backgroundSize: 'cover', backgroundPosition: 'center center' }}>
             <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight shadow-lg">

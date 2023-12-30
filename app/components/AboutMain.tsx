@@ -2,7 +2,7 @@ import AnimatedImg from "./AnimatedImg"
 import { tools } from "../about/tools"
 
 
-export default function AboutHero() {
+export default function AboutMain() {
 
     return (
         <div className="flex flex-col items-start p-6 bg-cyan">

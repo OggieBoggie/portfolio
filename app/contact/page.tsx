@@ -1,11 +1,11 @@
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import ContactMain from "@/components/ContactMain";
 
 export default function Contact() {
     return (
         <>
             <Navbar />
-            <Footer />
+            <ContactMain />
         </>
     );
 }
