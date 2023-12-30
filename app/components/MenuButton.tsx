@@ -1,5 +1,4 @@
 import { HamburgerMenuIcon, Cross1Icon } from '@radix-ui/react-icons';
-import * as React from 'react';
 
 interface MenuButtonProps {
   isOpen: boolean;
@@ -13,5 +12,6 @@ const MenuButton: React.FC<MenuButtonProps> = ({ isOpen, toggle }) => {
     </button>
   );
 };
+
 
 export default MenuButton;
