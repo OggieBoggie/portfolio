@@ -1,12 +1,12 @@
 # Tommy Nguyen's Portfolio
 
-Welcome to my personal portfolio showcasing my work, skills, and projects. If you have any questions, feel free to contact me at tommy.nguyen.vanc@gmail.com.
+Welcome to my personal portfolio showcasing my work, skills, and projects. The website is hosted on Vercel and can be accessed through the link: https://tommyportfolio.vercel.app
 
 ## Features
 
 - **About**: Learn about my background, education, work experience, and the technical skills.
 - **Projects**: Explore a collection of projects I've developed or contributed to through screenshots or video demos.
-- **Contact**: Find out how to contact me.
+- **Contact**: My contact information. 
 
 ## Technologies Used
 
