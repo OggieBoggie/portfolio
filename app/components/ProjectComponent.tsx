@@ -21,7 +21,7 @@ interface ProjectProps {
 
 export default function ProjectComponent({ thumbnail, title, description, tags, repo, video, date, screenshots }: ProjectProps) {
     return (
-        <div className="shadow-lg rounded-lg p-5 m-5 text-gray-800 bg-white bg-opacity-25">
+        <div className="shadow-lg rounded-lg p-5 m-5 text-black bg-white bg-opacity-20">
             <Image
                 src={thumbnail}
                 alt="{title} thumbnail"
@@ -48,7 +48,7 @@ export default function ProjectComponent({ thumbnail, title, description, tags, 
                         ))}
                     </div>
                 </div>
-                <div className="flex flex-row gap-4 py-2">
+                <div className="flex flex-row gap-4 pb-2">
                     <a
                         href={repo}
                         target="_blank"
