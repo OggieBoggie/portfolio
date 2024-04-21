@@ -49,18 +49,20 @@ export default function ProjectComponent({ thumbnail, title, description, tags, 
                     </div>
                 </div>
                 <div className="flex flex-row gap-4 pb-2">
-                    <a
-                        href={repo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Image
-                            src="repo.svg"
-                            alt="github repository"
-                            width={60}
-                            height={24}
-                            priority />
-                    </a>
+                    {repo && (
+                        <a
+                            href={repo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Image
+                                src="repo.svg"
+                                alt="github repository"
+                                width={60}
+                                height={24}
+                                priority />
+                        </a>
+                    )}
                     {video && (
                         video.map((video: string, index: number) => (
                             <a

@@ -32,22 +32,6 @@ export const tools = [
         alt: "Typescript Logo"
     },
     {
-        src: "/tools/tailwind.svg",
-        alt: "Tailwind Logo",
-    },
-    {
-        src: "/tools/sass.svg",
-        alt: "Sass Logo"
-    },
-    {
-        src: "/tools/nextjs.svg",
-        alt: "NextJS Logo"
-    },
-    {
-        src: "/tools/vite.svg",
-        alt: "Vite Logo"
-    },
-    {
         src: "/tools/mysql.svg",
         alt: "MySQL Logo"
     },
@@ -58,10 +42,6 @@ export const tools = [
     {
         src: "/tools/postgres.svg",
         alt: "PostgreSQL Logo"
-    },
-    {
-        src: "/tools/firebase.svg",
-        alt: "Firebase Logo"
     },
     {
         src: "/tools/django.svg",
@@ -76,7 +56,27 @@ export const tools = [
         alt: "NGINX Logo"
     },
     {
-        src: "/tools/git.svg",
-        alt: "Git Logo"
+        src: "/tools/docker.svg",
+        alt: "Docker Logo",
+    },
+    {
+        src: "/tools/azure.svg",
+        alt: "Azure Logo"
+    },
+    {
+        src: "/tools/kubernets.svg",
+        alt: "Kubernetes Logo"
+    },
+    {
+        src: "/tools/terraform.svg",
+        alt: "Terraform Logo"
+    },
+    {
+        src: "/tools/ansible.svg",
+        alt: "Ansible Logo"
+    },
+    {
+        src: "/tools/jenkins.svg",
+        alt: "Jenkins Logo"
     }
 ]

@@ -37,6 +37,10 @@ export default function AboutMain() {
                 <li className="mb-2">
                     Learned about Database Management Systems and SQL.
                 </li>
+                <li className="mb-2">
+                    Created a cloud infrastructure using Azure, containing a Source Code Repository, 
+                    CI/CD pipeline, Knowledge Base, and Apache.
+                </li>
             </ul>
             <h1 className="text-3xl font-bold text-white mt-6">
                 Tools and Technologies

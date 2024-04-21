@@ -1,5 +1,52 @@
-
 export const projects = [
+    {
+        thumbnail: "/project/immersio/thumbnail.jpg",
+        description: "This project was sponsored by Immersio, a language learning platform that strives to understand user learning behaviours for course effectivness and tailored material. Currently there is no method of storing and handling data, which this project aims to solve by creating a backend that can store and handle all the data from tracing activies. The backend is built with NodeJS and Express, connecting to MongoDB atlas from the cloud. It uses mongoose to create schemas for the data and query specific data through many restful routes. With the schema carefully put to handle specific scenarios with incoming user data, there are many ways to update on specific instance of data for further analysis. Using swagger, all the routes in the backend are fully documented with test use cases. There is also a mock frontend built with React and TypeScript for demonstrating how data is passed in for specific scenarios like questions and viewing videos. For the video page, it has specific logic allow it to track every instance in which the video is paused, played, replayed, and skipped. A data simulator was built in order to stress test the backend, making sure it can handle various amounts of traffic and simulating events where data is passed. AWS is also used to deploy the backend and frontend with EC2. These images are built with Docker for easy deployment and scaling. Jenkins and Github Actions were used for CI/CD pipelines with Jest for unit testing and Grafana for monitoring the backend. ",
+        title: "Immersio",
+        tags: ["NodeJS", "Express", "MongoDB", "React", "TypeScript", "Docker", "AWS", "CI/CD", "Jest", "Swagger", "Jenkins", "Grafana", "Agile", "Industry Sponsored"],
+        video: ["https://www.linkedin.com/feed/update/urn:li:activity:7183211066972147712/"],
+        date: "2024-04-12",
+        screenshots: [
+            {
+                link: "/project/immersio/routes.jpg",
+                description: "Routes Documentation"
+            },
+            {
+                link: "/project/immersio/schema.jpg",
+                description: "Schema for Storing Activities"
+            },
+            {
+                link: "/project/immersio/question.jpg",
+                description: "Mock Frontend Questions Page"
+            },
+            {
+                link: "/project/immersio/video.jpg",
+                description: "Mock Frontend Video Page"
+            }
+        ]
+    },
+    {
+        thumbnail: "/project/microservices/thumbnail.jpg",
+        description: "A microservices project simulates a game rental service, which allows for receiving order and rental requests. There are multiple services that handle different aspects of the system. The first service is the receiver, which receives the POST requests for order and rental requests and processes the messages to Kafka. The second service is the storage service, which consumes the messages from Kafka and stores the data in a MySQL database. The third service is the processing service, which queries the data from the storage service and processes them into stats, such as averages and total amounts, towards a SQLite database. The fourth service is the audit log service, which logs all the requests with indexes and timestamps from consuming the messages from Kafka. The front end is built with React Vite, providing a visual interface for the data and audit logs. Another service is the event log, which checks the status of the services by consuming a topic on Kafka, storing it in a SQLite database. All the routes are fully documented with Swagger, and the services are built with Python Flask, using the Connexion library. All of this is deployed on AWS EC2, using Docker and Docker Compose to build the images from DockerHub. There is also Nginx for load balancing and ease of access to the services, and Apache JMeter was used for stress testing. Once changes are made to a specific service, Jenkins automatically builds a CI/CD pipeline, with the option of updating the VM to the latest version. The pipeline consists of a build stage that installs all the dependencies, a linting stage to check the code quality, security scan to check for vulnerabilities in the dependencies, package which builds and pushes the version to docker, and deploy to apply the changes to the VM. Centralized logging was also applied, as well as externalized configuration allowing for different settings for different environments. ",
+        title: "Games Rental Microservices",
+        tags: ["Python", "Flask", "React", "Docker", "AWS", "Nginx", "MySQL", "SQLite", "Swagger", "Kafka", "Jenkins", "CI/CD", "Logging", "Microservices"],
+        video: ["https://youtu.be/dJI-TbfGu84"],
+        date: "2024-04-04",
+        screenshots: [{
+            link: "/project/microservices/dashboard.png",
+            description: "Dashboard page"
+        },
+        {
+            link: "/project/microservices/pipelines.png",
+            description: "Jenkins pipelines built for services"
+        },
+        {
+            link: "/project/microservices/stages.png",
+            description: "Example stages built with shared library"
+        }
+    ]
+
+    },
     {
         thumbnail: "/project/placespeak/thumbnail.jpg",
         description: "This project was sponsored by PlaceSpeak, a company that created a platform aimed at enhancing local citizen engagement and is planning to expand further into the United States. The project builds upon the existing platform, placespeak.com, by creating modular components and extending the neighborhood mapping to the U.S. Our solution sought to increase user engagement by encouraging interactions through gamification elements such as a points system and unlockable badges. Additional features developed include profile customization and the distribution of polls to users within the same neighborhood. The front end was developed with React, Next.js, Tailwind CSS, and TypeScript. The back end utilized Django with PostgreSQL and PostGIS, employing shapefiles to delineate neighborhood boundaries. WebSockets were implemented for real-time updates on polls, enabling users to receive instant notifications. OAuth was incorporated to facilitate account creation and login using Google. This project was executed using Agile and Scrum methodologies over a period of four months by an eight-member team.",
