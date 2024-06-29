@@ -8,7 +8,7 @@ export default function AboutMain() {
         <div className="flex flex-col items-start p-6 bg-cyan">
             <h1 className="text-3xl font-bold text-white">About Me</h1>
             <p className="text-white text-lg mt-4">
-                Hello I'm Tommy Nguyen, I was born in Vancouver, 
+                Hello I am Tommy Nguyen, I was born in Vancouver, 
                 I am able to fluently speak English and am a graduate 
                 from BCIT in Computer Information Technology. 
                 Growing up, I have always been interested in
