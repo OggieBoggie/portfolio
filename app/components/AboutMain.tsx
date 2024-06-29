@@ -8,14 +8,14 @@ export default function AboutMain() {
         <div className="flex flex-col items-start p-6 bg-cyan">
             <h1 className="text-3xl font-bold text-white">About Me</h1>
             <p className="text-white text-lg mt-4">
-                Hello my name is Tommy Nguyen, I was born in Vancouver, but 
-                I am Vietnamese. I am able to fluently speak English and 
-                am currently studying at BCIT in Computer Information 
-                Technology. Growing up, I have always been interested in
+                Hello I'm Tommy Nguyen, I was born in Vancouver, 
+                I am able to fluently speak English and am a graduate 
+                from BCIT in Computer Information Technology. 
+                Growing up, I have always been interested in
                 computers and technology, as I have always been fascinated
-                with what they can do. I am eager to learn more about 
-                developing applications and their architecture, so I aspire
-                to become a full-stack developer or cloud engineer.
+                with what they can do. My academic journey and hands-on projects have
+                helped me develop and apply my skills for creating solutions and 
+                designing robusts architectures.
             </p>
             <h1 className="text-3xl font-bold text-white mt-6">Education</h1>
             <h2 className="text-white text-lg mt-4">
@@ -29,7 +29,7 @@ export default function AboutMain() {
                     Collaborated with industry sponsors to create 2 different projects.
                 </li>
                 <li className="mb-2">
-                    Designed and deployed an architecture using AWS.
+                    Designed, automated, and deployed an architecture using AWS.
                 </li>
                 <li className="mb-2">
                     Managed an AD DS domain and created a network infrastructure.
@@ -42,6 +42,10 @@ export default function AboutMain() {
                     CI/CD pipeline, Knowledge Base, and Apache.
                 </li>
             </ul>
+            <h1 className="text-3xl font-bold text-white my-4">Cerfiticate</h1>
+            <h2 className="text-white text-xl">
+                <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/ccd24d035aa943d4aad340ba50b83621" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline hover:text-custom-indigo m-2">AWS Certified Cloud Practitioner</a>
+            </h2>
             <h1 className="text-3xl font-bold text-white mt-6">
                 Tools and Technologies
                 </h1>
